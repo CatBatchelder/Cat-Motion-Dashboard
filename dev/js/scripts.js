@@ -1,8 +1,10 @@
-import {gsap} from "gsap";
+console.log( "is scripts working");
+
+import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(GSDevTools);
 
-//instantiate GSDevTools with default settings
+// //instantiate GSDevTools with default settings
 GSDevTools.create();
 
