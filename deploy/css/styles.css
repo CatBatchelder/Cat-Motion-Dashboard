@@ -413,20 +413,20 @@ textarea {
     Footer
 ============= */
 /* =============
-    Demo
+    Dash
 ============= */
-#spooky-container {
+#dash-container {
   display: grid;
   grid-template-columns: auto 60% auto;
-  grid-template-areas: ". spooky .";
+  grid-template-areas: ". dash .";
 }
-#spooky-container > div {
-  grid-area: spooky;
+#dash-container > div {
+  grid-area: dash;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-#spooky-container > div svg {
+#dash-container > div svg {
   width: 100%;
 }

@@ -1,14 +1,14 @@
 /* =============
-    Demo
+    Dash
 ============= */
 
-#spooky-container{
+#dash-container{
     display: grid;
     grid-template-columns: auto 60% auto;
-    grid-template-areas: ". spooky .";
+    grid-template-areas: ". dash .";
 
     >div{
-        grid-area: spooky;
+        grid-area: dash;
         display: flex;
         justify-content: center;
         align-items: center;
