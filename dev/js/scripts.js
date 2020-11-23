@@ -1,4 +1,4 @@
-console.log( "is scripts working");
+//console.log( "is scripts working");
 
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
