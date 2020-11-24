@@ -1,4 +1,4 @@
-console.log( "is spedometer working");
+//console.log( "is spedometer working");
 
 import { gsap } from "gsap";
 
