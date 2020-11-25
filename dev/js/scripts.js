@@ -11,14 +11,22 @@ import {carAnimation} from "./logo/car.js";
 import {transitionAnimation} from "./logo/transition.js";
 import {spedometerAnimation} from "./design/spedometer.js";
 import {musicAnimation} from "./design/music.js";
+import {prndlAnimation} from "./design/prndl.js";
+import {mapAnimation} from "./design/map.js";
+import {movingAnimation} from "./move/moving.js";
+import {colorAnimation} from "./move/colorChange.js";
 
 const mainTL = gsap.timeline()
 mainTL.add(backgroundAnimation())
         .add(logoAnimation())
         .add(carAnimation())
         .add(transitionAnimation())
-        .add(spedometerAnimation())
-        .add(musicAnimation())
+        .add(spedometerAnimation(),"start-engine")
+        .add(musicAnimation(),"start-engines")
+        .add(prndlAnimation(),"start-engines")
+        .add(mapAnimation(),"start-engines")
+        .add(movingAnimation())
+        .add(colorAnimation()) 
         ;
 
 

@@ -102,6 +102,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/design/map.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/design/map-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/design/music.js": {
 		"bF": 0,
 		"ft": 64,
@@ -109,6 +120,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/design/music-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/design/prndl.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/design/prndl-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -164,6 +186,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/logo/transition-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/move/colorChange.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/move/colorChange-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/move/moving.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/move/moving-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
