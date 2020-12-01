@@ -15,6 +15,7 @@ import {prndlAnimation} from "./design/prndl.js";
 import {mapAnimation} from "./design/map.js";
 import {movingAnimation} from "./move/moving.js";
 import {colorAnimation} from "./move/colorChange.js";
+// import { speedCounter } from "./move/speed.js";
 
 const mainTL = gsap.timeline()
 mainTL.add(backgroundAnimation())
@@ -25,7 +26,8 @@ mainTL.add(backgroundAnimation())
         .add(musicAnimation(),"start-engines")
         .add(prndlAnimation(),"start-engines")
         .add(mapAnimation(),"start-engines")
-        .add(movingAnimation())
+        .add(movingAnimation(), "move")
+        // .add(speedCounter(), "move")
         .add(colorAnimation()) 
         ;
 

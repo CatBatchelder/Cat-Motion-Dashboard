@@ -11,7 +11,7 @@ export function musicAnimation(){
     musicTL.from("#record",{duration:1, alpha: 0, x:500, rotate: "360"})
             .from("#song",{duration:1, alpha: 0, scale:0, x:-80}, "title")
             .from("#artist",{duration:1, alpha: 0, scale:0, x:-80}, "title")
-           // .to("#record",{ duration: 1, rotate: "360",  repeat: (15)}, "title")
+           .to("#record",{ duration: 1, rotate: "360",  repeat: (4)}, "title")
 
      ; 
 

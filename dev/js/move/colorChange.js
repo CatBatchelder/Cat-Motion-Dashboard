@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 
-console.log("colorchange working")
+// console.log("colorchange working")
 
 const colorTL = gsap.timeline();
 
@@ -34,9 +34,11 @@ export function colorAnimation(){
             .to("#record-middle",{duration:1, fill: "#F27B9D"}, "switch")
             .to("#record-label",{duration:1, fill: "#754C9C"}, "switch")
             .to("#flower",{duration:1, fill: "#F37A15"}, "switch")
-            .to("#speed",{duration:1, fill: "#F37A15"}, "switch")
+            .to("#speedTag",{duration:1, fill: "#F37A15"}, "switch")
             .to("#mph",{duration:1, fill: "#F37A15"}, "switch")
             .to("#map",{duration:1, stroke: "#FDD303"}, "switch")
+            .to("#bottom-rectangle",{duration:1, fill: "#462862"}, "switch")
+            .from("#Arrived",{alpha:0}, "switch")
             
      ; 
 
