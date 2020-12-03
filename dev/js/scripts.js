@@ -1,7 +1,7 @@
 //console.log( "is scripts working");
 
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
+//import { GSDevTools } from "gsap/GSDevTools";
 
 import {backgroundAnimation} from "./logo/background.js";
 import {logoAnimation} from "./logo/logo.js";
@@ -15,7 +15,7 @@ import {mapAnimation} from "./design/map.js";
 //import {movingAnimation} from "./move/moving.js";
 import {colorAnimation} from "./move/colorChange.js";
 
-gsap.registerPlugin(GSDevTools);
+//gsap.registerPlugin(GSDevTools);
 
 
 const mainTL = gsap.timeline()
@@ -34,5 +34,5 @@ mainTL.add(backgroundAnimation())
 
 
 // //instantiate GSDevTools with default settings
-GSDevTools.create();
+//GSDevTools.create();
 
