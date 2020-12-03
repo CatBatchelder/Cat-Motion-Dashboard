@@ -12,6 +12,7 @@ gsap.set("#circle-start",{rotationX:180});
 
 
 export function logoAnimation(){
+   
     logoTL.from("#v",{duration:.5, y: -500, alpha:0})
             .from("#w-cp",{duration:.5, alpha:0, scale:0, x:-300})
             .from("#circle-start",{duration:.5, alpha:0, drawSVG: "0"})

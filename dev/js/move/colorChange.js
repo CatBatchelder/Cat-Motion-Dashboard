@@ -38,7 +38,11 @@ export function colorAnimation(){
             .to("#mph",{duration:1, fill: "#F37A15"}, "switch")
             .to("#map",{duration:1, stroke: "#FDD303"}, "switch")
             .to("#bottom-rectangle",{duration:1, fill: "#462862"}, "switch")
-            .from("#Arrived",{alpha:0}, "switch")
+            .to("#prndl-background-outer",{duration:1, fill: "#462862", stroke: "#462862"}, "switch")
+            .to("#prndl-background-inner",{duration:1, fill: "#D4FFCC"}, "switch") 
+            .to("#music-background-outer",{duration:1, fill: "#462862"}, "switch")
+            .to("#music-background-inner",{duration:1, fill: "#D4FFCC"}, "switch") 
+            .from("#arrived",{alpha:0}, "switch")
             
      ; 
 

@@ -16,8 +16,8 @@ const spedometerTL = gsap.timeline();
 export function spedometerAnimation(){
      spedometerTL.from("#sped",{duration:.5, scale:0, alpha: 0,  ease: "none"}, "sped-start")
      spedometerTL.from("#spedometer-shape",{duration:.5, scale:0, alpha: 0,  ease: "none"}, "sped-start")
-     .from("#bottom-rectangle", {alpha: 0, duration:.5, scale: 0}, "sped-start")
-    //  spedometerTL.from("#speedTag",{duration:.5, alpha: 0,  ease: "none"})
+     .from("#bottom-rectangle", {alpha: 0, duration:.5}, "sped-start")
+      spedometerTL.from("#speedTag",{duration:.5, alpha: 0,  ease: "none"})
      spedometerTL.from("#mph",{duration:.5, alpha: 0, x:-40})
      spedometerTL.from("#rect-1",{duration:.25, alpha: 0}, "-=.15")
      spedometerTL.from("#rect-2",{duration:.25, alpha: 0}, "-=.15")
@@ -34,7 +34,7 @@ export function spedometerAnimation(){
      spedometerTL.to("#rect-1",{duration:.25, fill: "#82C776"})
      spedometerTL.to("#rect-2",{duration:.25, fill: "#82C776"})
      spedometerTL.to("#rect-3",{duration:.25, fill: "#82C776"})
-     .from("#speedTag",{duration:.5, alpha: 0,  ease: "none"})
+     //.from("#speedTag",{duration:.5, alpha: 0,  ease: "none"})
     
      ; 
 
